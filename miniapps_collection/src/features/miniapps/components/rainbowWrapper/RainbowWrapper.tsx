@@ -8,13 +8,13 @@ interface RainbowWrapperProps {
 }
 
 const rainbowColours = [
-  "red",
-  "orange",
-  "yellow",
-  "green",
-  "blue",
-  "indigo",
   "violet",
+  "indigo",
+  "blue",
+  "green",
+  "yellow",
+  "orange",
+  "red",
 ];
 
 const RainbowWrapper: React.FC<RainbowWrapperProps> = ({

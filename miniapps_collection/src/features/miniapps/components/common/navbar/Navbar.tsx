@@ -17,6 +17,9 @@ const Navbar = () => {
             <li className="cursor-pointer hover:bg-gray-500 hover:text-gray-50 px-4 py-2 rounded-xl transition-all duration-100">
               <Link href={"/counter"}>Counter</Link>
             </li>
+            <li className="cursor-pointer hover:bg-gray-500 hover:text-gray-50 px-4 py-2 rounded-xl transition-all duration-100">
+              <Link href={"/rainbow-wrapper"}>Rainbow Wrapper</Link>
+            </li>
           </ul>
         </div>
         <div className="flex items-center gap-2 text-gray-400">
